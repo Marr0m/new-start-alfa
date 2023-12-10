@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+    <link rel="stylesheet" href="estilos/galeria.css">
+    <link rel="stylesheet" href="../css/padrao/cabecalho.css">
+    <link rel="stylesheet" href="../css/padrao/rodape.css">
+    <script src="../css/padrao/cabecalho.js" defer></script>
+</head>
+<body>
+    <header class="cabeca">
+        <nav class="container nav">
+            <div class="nav-icons">
+                <a href="../index.html" class="logo">
+                 NEW START UNICO
+                </a> 
+                <div class="nav_toggle" id="nav_toggle">   
+                    <i class="fa-solid fa-bars barra"></i>
+                    <i class="fa-solid fa-x close"></i>
+                </div>
+            </div>
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li><a href="../index.html" class="nav-link">HOME</a></li>
+
+                    <li><a href="midia.html" class="nav-link">MÍDIA</a></li>
+
+                    <li><a href="../sobre/sobre.html" class="nav-link">SOBRE NÓS</a></li>
+                    <li class="dropdown-iten">
+                        <div class="nav-link">
+                            ARTIGOS <i class="fa-solid fa-chevron-down dropdown-seta"></i>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="artigos/artigosconteudo/identidadedigital.html" class="drop-link">
+                                    Identidade Digital
+                                </a>
+                            </li>
+                            <li>
+                                <a href="artigos/artigosconteudo/privacidade.html" class="drop-link">
+                                    Segurança & Privacidade
+                                </a>
+                            </li>
+                            <li>
+                                <a href="artigos/artigosconteudo/tecnoart.html" class="drop-link">
+                                    Tecnologia na Arte
+                                </a>
+        
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="../contatos/contatos.html" class="nav-link">CONTATOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>    
+        <main>
+            <div class="galeria-modal" onclick="fecharGaleria()">
+                <span>X</span>
+                <img src="" alt="">
+            </div>
+            <section>
+                <div class="galeria">
+                    <div class="single-galeria w-2 h-2">
+                        <img src="imagens/galeria/Crookz-Nft.gif" alt="" onclick="abrirGaleria('imagens/galeria/Crookz-Nft.gif')">
+                    </div>
+                    <div class="single-galeria w-2">
+                        <img src="imagens/galeria/gow.jpg" alt="" onclick="abrirGaleria('imagens/galeria/gow.jpg')">
+                    </div>
+                    <div class="single-galeria">
+                        <img src="imagens/galeria/gorillaz.jpg" alt="" onclick="abrirGaleria('imagens/galeria/gorillaz.jpg')">
+                    </div>
+                    <div class="single-galeria h-2">
+                        <img src="imagens/galeria/last-of-us.jpg" alt="" onclick="abrirGaleria('imagens/galeria/last-of-us.jpg')">
+                    </div>
+                    <div class="single-galeria">
+                        <img src="imagens/galeria/heartsteel.jpg" alt="" onclick="abrirGaleria('imagens/galeria/heartsteel.jpg')">
+                    </div>
+                    <div class="single-galeria w-2">
+                        <img src="imagens/galeria/nft-cvr.gif" alt="" onclick="abrirGaleria('imagens/galeria/nft-cvr.gif')">
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="container final">
+            <a href="../index.html"> <img src="../imagens/elementos/logo.png" alt="logo"> </a>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h2><a href="midia.html">MÍDIA</a></h2>
+                    <h2><a href="../sobre/sobre.html">SOBRE NÓS</a></h2>
+                </div>
+                <div class="footer-content">
+                        <h2><a href="artigos.html">ARTIGOS</a></h2>
+                </div>
+                <div class="footer-content">
+                    <h2><a href="../contatos/contatos.html">CONTATOS</a></h2>
+                </div>
+            </div>
+                <div class="icones">
+                    <h2>SIGA NOSSAS REDES:</h2>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/newstart_sermais/" target="_blank"><i class="fa-brands fa-instagram" style="color: #DCDCDC;"></i></a>
+                        <a href="https://www.youtube.com/channel/UCdNKu5W8rpTWha31WuFLITg" target="_blank"><i class="fa-brands fa-youtube" style="color: #DCDCDC;"></i></a>
+                        <a href="https://www.deezer.com/br/show/1000443922" target="_blank"><i class="fa-brands fa-deezer" style="color: #DCDCDC;"></i></a>
+                        <a href="https://open.spotify.com/show/6Bkl6lf0xw8ayN03umNbGF" target="_blank"><i class="fa-brands fa-spotify" style="color: #DCDCDC;"></i></a>
+                        <a href="newstart.unico2023@gmail.com" target="_blank"><i class="fa-solid fa-envelope" style="color: #DCDCDC;"></i></a>
+                    </div>
+                </div>
+        </footer>
+    <script src="JS/app.js"></script>
+    <script src="https://kit.fontawesome.com/97ff64b5ba.js" crossorigin="anonymous"></script>
+</body>
+</html>
