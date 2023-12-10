@@ -47,7 +47,6 @@ main{
 }
 
 .galeria-modal img{ 
-  border: red 5px solid;
   width: 90vw;
   height: 90vh;
   object-fit: contain;
@@ -88,6 +87,7 @@ section{
     height: 100%;
     object-fit: cover;
     transition: .25s ease-in-out;
+    cursor: pointer;
 }
 
 .single-galeria img:hover{ 
